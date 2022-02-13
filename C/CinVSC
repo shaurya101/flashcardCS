@@ -1,0 +1,11 @@
+1. Install VSC 
+2. Ensure clang is installed.
+In terminal type 'clang --version'
+If clang is not present then install the command line tools by 'xcode-select --install'
+4. In VSC install the C/C++ extensions.
+5. Write the program and save it with .c extension name.
+6. From main menu choose Terminal > Configure Default Build Task.
+7. Select 'clang build active file', which will create a tasks.json file. Note  that our C file should be open in the editor as this step uses the active file in editor as context.
+8. Go to our C program. Fro Terminal choose 'Run build task'.
+9. You will see if the build was successful or fail. Click the + button on right to create new terminal.
+10. Run program by typing './programName'.
