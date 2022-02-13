@@ -1,0 +1,4 @@
+C
+It is a mid level language. It has a mix of high level and low level characteristics. 
+High level like C is machine independent.
+Low level like it supports pointer arithmetic. Also memory allocation/deallocation.
